@@ -1,4 +1,4 @@
-# API Waktu Sholat Indonesia
+# API Waktu Sholat Indonesia (2025 - 2026)
 
 API ini menyediakan informasi waktu sholat dan imsak untuk berbagai kota di Indonesia. API ini menggunakan data dari Kementerian Agama Republik Indonesia.
 API ini juga menyediakan informasi tentang provinsi dan kota di Indonesia.
