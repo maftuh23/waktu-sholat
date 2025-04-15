@@ -41,7 +41,7 @@ const createPrayersTimes = async () => {
 
   for (const province of provinces) {
     for (const city of province.cities) {
-      for (let year = 2022; year <= 2030; year++) {
+      for (let year = 2025; year <= 2026; year++) {
         const pathToDataFile = path.resolve(
           "src/data/refactored",
           province.slug,
