@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.10",
-    "node-libcurl": "^2.3.4",
+    "node-libcurl": "^4.1.0",
     "nodemon": "^2.0.15",
     "prisma": "^3.11.0"
   },
