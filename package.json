@@ -6,7 +6,7 @@
   "author": "Maftuh Ichsan (maftuhichsan123@gmail.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/renomureza/waktu-sholat.git"
+    "url": "https://github.com/maftuh23/waktu-sholat"
   },
   "scripts": {
     "start": "node .",

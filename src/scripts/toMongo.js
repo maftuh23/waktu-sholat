@@ -2,8 +2,6 @@ const path = require("path");
 const fs = require("fs/promises");
 const prismaClient = require("../utils/prismaClient");
 const provinces = require("../data/refactored/list.json");
-const ct = require("countries-and-timezones");
-
 const createProvinces = async () => {
   const provs = provinces.flatMap(({ cities, ...province }) => province);
   await prismaClient.province.createMany({
