@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "regions": ["sin1"],
   "builds": [
     {
       "src": "./src/app.js",
       "use": "@vercel/node"
     }
   ],
-  "buildCommand": "yarn install --ignore-scripts",
+  "installCommand": "yarn install --ignore-scripts",
   "rewrites": [
     {
       "source": "/(.*)",
