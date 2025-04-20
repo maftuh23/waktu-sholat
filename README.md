@@ -15,31 +15,31 @@ Contoh: [`/province`](https://waktu-sholat-huso.vercel.app/province)
 
 Mengembalikan provinsi dan daftar kota.
 
-Contoh: [`/province/623170da0c9712e86967f918`](https://waktu-sholat-huso.vercel.app/province/623170da0c9712e86967f918)
+Contoh: [`/province/623170da0c9712e86967f918`](https://waktu-sholat-huso.vercel.app/province/67fe1456a32be2ab743ff554)
 
 ### `/province/{province.id}/city`
 
 Mengembalikan daftar kota untuk provinsi tertentu.
 
-Contoh: [`/province/623170da0c9712e86967f918/city`](https://waktu-sholat-huso.vercel.app/province/623170da0c9712e86967f918/city)
+Contoh: [`/province/623170da0c9712e86967f918/city`](https://waktu-sholat-huso.vercel.app/province/67fe1456a32be2ab743ff554/city)
 
 ### `/province/{province.id}/city/{city.id}`
 
 Mengembalikan kota spesifik.
 
-Contoh: [`/province/623170da0c9712e86967f918/city/623174648c0926930463d0a6`](https://waktu-sholat-huso.vercel.app/province/623170da0c9712e86967f918/city/623174648c0926930463d0a6)
+Contoh: [`/province/623170da0c9712e86967f918/city/623174648c0926930463d0a6`](https://waktu-sholat-huso.vercel.app/province/67fe1456a32be2ab743ff554/city/67fe1456a32be2ab743ff58d)
 
 ### `/location?latitude={latitude}&longitude={longitude}`
 
 Mengembalikan kota spesifik.
 
-Contoh: [`/location?latitude=-6.310433333333333&longitude=107.2922944444444`](https://waktu-sholat-huso.vercel.app/location?latitude=-6.310433333333333&longitude=107.2922944444444)
+Contoh: [`/location?latitude=-8.53695&longitude=115.402972222222`](https://waktu-sholat-huso.vercel.app/location?latitude=-8.53695&longitude=115.402972222222)
 
 ### `/prayer?latitude={latitude}&longitude={longitude}`
 
 Mengembalikan waktu sholat & imsak sesuai dengan kota terdekat berdasarkan koordinat, default Kota Jakarta. |
 
-Contoh: [`/prayer?latitude=-6.310433333333333&longitude=107.2922944444444`](https://waktu-sholat-huso.vercel.app/prayer?latitude=-6.310433333333333&longitude=107.2922944444444)
+Contoh: [`/prayer?latitude=-8.53695&longitude=115.402972222222`](https://waktu-sholat-huso.vercel.app/prayer?latitude=-8.53695&longitude=115.402972222222)
 
 ## Sumber Data
 
