@@ -3,3 +3,6 @@ cookie.txt
 .env
 .env_example
 .vercel
+
+# Sentry Config File
+.sentryclirc
