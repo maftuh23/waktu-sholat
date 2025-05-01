@@ -2,14 +2,7 @@ const config = require("./config/config");
 const app = require("./app");
 const logger = require("./config/logger");
 const prismaClient = require("./utils/prismaClient");
-const Sentry = require("@sentry/node");
-
-// === INISIALISASI SENTRY ===
-Sentry.init({
-  dsn: env("SENTRY_DSN"), // Ganti dengan DSN dari akun Sentry kamu
-  tracesSampleRate: 1.0, // Atur ini sesuai kebutuhan
-});
-
+require("./instrument.js");
 
 let server;
 
@@ -33,7 +26,6 @@ const exitHandler = () => {
 
 const unexpectedErrorHandler = (error) => {
   logger.error(error);
-  Sentry.captureException(error); // Kirim error ke Sentry
   exitHandler();
 };
 

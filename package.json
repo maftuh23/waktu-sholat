@@ -9,13 +9,16 @@
     "url": "https://github.com/maftuh23/waktu-sholat"
   },
   "scripts": {
-    "start": "node .",
+    "start": "node . && yarn sentry:sourcemaps",
     "dev": "nodemon .",
-    "postinstall": "npx prisma generate"
+    "postinstall": "npx prisma generate",
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org yayasan-lajnah-istiqomah --project waktu-sholat ./out && sentry-cli sourcemaps upload --org yayasan-lajnah-istiqomah --project waktu-sholat ./out"
   },
   "dependencies": {
     "@prisma/client": "^3.11.0",
+    "@sentry/cli": "^2.43.1",
     "@sentry/node": "^9.15.0",
+    "@sentry/profiling-node": "^9.15.0",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",

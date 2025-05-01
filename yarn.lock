@@ -810,12 +810,80 @@
   dependencies:
     "@opentelemetry/instrumentation" "^0.52.0 || ^0.53.0 || ^0.54.0 || ^0.55.0 || ^0.56.0 || ^0.57.0"
 
+"@sentry-internal/node-cpu-profiler@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@sentry-internal/node-cpu-profiler/-/node-cpu-profiler-2.1.0.tgz#ef28f269e43a560a1a9a6e86d0aa7846e3f284c5"
+  integrity sha512-/gPj8ARZ8Jw8gCQWToCiUyLoOxBDP8wuFNx07mAXegYiDa4NcIvo37ZzDWaTG+wjwa/LvCpHxHff6pejt4KOKg==
+  dependencies:
+    detect-libc "^2.0.3"
+    node-abi "^3.73.0"
+
+"@sentry/cli-darwin@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-darwin/-/cli-darwin-2.43.1.tgz#356ea4d334a373a87927393f1ff9b047dee99185"
+  integrity sha512-622g/UyhTi1zC0Nnnbto75gNkExwwjv1cnRA4ERwfPgiOI3UK0/j+m4CcosqrfdTK55pv+SiifOlmvDPZnMIZw==
+
+"@sentry/cli-linux-arm64@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm64/-/cli-linux-arm64-2.43.1.tgz#02918f83d962a9af279dbce0eab6bd2fa57ac033"
+  integrity sha512-c1P7eZqdDwRlePBSQSgWYUi80W5ywvG/XxZFVecjdHDEYlo2BJTRirqZTqzKzI/Ekk8x5hOxNuBbP+m9FluDMw==
+
+"@sentry/cli-linux-arm@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-arm/-/cli-linux-arm-2.43.1.tgz#e7bf2c71b6f376581b08034f7d410b3492314c52"
+  integrity sha512-eQKcfqMR9bg8HKR9UCwm8x3lGBMUu1wCQow2BwEX4NbY1GzniSHNH4MBY2ERpOsfCA0LM5xEWQk/QFXexz1Dhw==
+
+"@sentry/cli-linux-i686@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-i686/-/cli-linux-i686-2.43.1.tgz#ae495afe985f2b9738ec8277cf84361d6ead1501"
+  integrity sha512-VRhzmEOeA/nsQHkf3Jt8mbgZmdbAWURM18Y1uXVRI/mQzZaz6YAZ+IzQ6gANpUk+UfTdf1q0unZSAIOUuu19gA==
+
+"@sentry/cli-linux-x64@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-linux-x64/-/cli-linux-x64-2.43.1.tgz#05a245a995387197f327251674069c553a3f53b6"
+  integrity sha512-c8G4zdzxzdPOz+tV1LNwUz5UsPNnhEE13kMPesF81liawwznnBsDfeKf6t/87Eem4BgAPdsFlnqnffi4BdqkZQ==
+
+"@sentry/cli-win32-arm64@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-arm64/-/cli-win32-arm64-2.43.1.tgz#5fdea8285998e6915a0588ebceed87a0afb2a05c"
+  integrity sha512-K+9td351lzUn51R/oHotyEkq7nzKWBm2ffhVAe4HXNh72MjhyIvonAhQUrGawIjn/aLHO+hq9iNaEXbCu6Hulg==
+
+"@sentry/cli-win32-i686@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-i686/-/cli-win32-i686-2.43.1.tgz#42907778a1352a87ebe7f1de8d098cb82a7a447f"
+  integrity sha512-Co7kj0o16xcUZRZY+VwMgpdDvOY2xAbR5Xg5NXv73nXdALgGWf+G5bntFz3baNmaSOYWKJjvZT7a+YLwe/DihQ==
+
+"@sentry/cli-win32-x64@2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli-win32-x64/-/cli-win32-x64-2.43.1.tgz#a26e161e2ce3e3b7e262e4da197c3905b6f291c9"
+  integrity sha512-uH7l4FXc6s0GoJeriU6kQOYzREqDGB7b16XbTKY+lnhMNvBgP2aaOUQ9yRLbEHeSSg/112SQeolCnF2GwTmoKw==
+
+"@sentry/cli@^2.43.1":
+  version "2.43.1"
+  resolved "https://registry.yarnpkg.com/@sentry/cli/-/cli-2.43.1.tgz#8b34d2b24d661aef55395a40ac72413a813a626d"
+  integrity sha512-5jg8cy4LlPnmgI6FkxClDRB5hFWzmlq7VZqj5o6Zdm5KRywzCn2s18GXyC1LPf6MFHw3AZ/K2h5pUZmJdWUBFQ==
+  dependencies:
+    https-proxy-agent "^5.0.0"
+    node-fetch "^2.6.7"
+    progress "^2.0.3"
+    proxy-from-env "^1.1.0"
+    which "^2.0.2"
+  optionalDependencies:
+    "@sentry/cli-darwin" "2.43.1"
+    "@sentry/cli-linux-arm" "2.43.1"
+    "@sentry/cli-linux-arm64" "2.43.1"
+    "@sentry/cli-linux-i686" "2.43.1"
+    "@sentry/cli-linux-x64" "2.43.1"
+    "@sentry/cli-win32-arm64" "2.43.1"
+    "@sentry/cli-win32-i686" "2.43.1"
+    "@sentry/cli-win32-x64" "2.43.1"
+
 "@sentry/core@9.15.0":
   version "9.15.0"
   resolved "https://registry.yarnpkg.com/@sentry/core/-/core-9.15.0.tgz#590f16a15596ce01db49d9d80b31cb18048ca9a4"
   integrity sha512-lBmo3bzzaYUesdzc2H5K3fajfXyUNuj5koqyFoCAI8rnt9CBl7SUc/P07+E5eipF8mxgiU3QtkI7ALzRQN8pqQ==
 
-"@sentry/node@^9.15.0":
+"@sentry/node@9.15.0", "@sentry/node@^9.15.0":
   version "9.15.0"
   resolved "https://registry.yarnpkg.com/@sentry/node/-/node-9.15.0.tgz#f43954ed8ccdc1cb7d5c315b7d481c5f46300885"
   integrity sha512-K0LdJxIzYbbsbiT+1tKgNq6MUHuDs2DggBDcFEp3T+yXVJYN1AyalUli06Kmxq8yvou6hgLwWL4gjIcB1IQySA==
@@ -861,6 +929,15 @@
   integrity sha512-gGOzgSxbuh4B4SlEonL1LFsazmeqL/fn5CIQqRG0UWWxdt6TKAMlj0ThIlGF3jSHW2eXdpvs+4E73uFEaHIqfg==
   dependencies:
     "@sentry/core" "9.15.0"
+
+"@sentry/profiling-node@^9.15.0":
+  version "9.15.0"
+  resolved "https://registry.yarnpkg.com/@sentry/profiling-node/-/profiling-node-9.15.0.tgz#04c7588b8f805f521178e2ef859a482ea21b1e80"
+  integrity sha512-I5lU5XNYOTeULAUgeZg9Un+nKmwkDKCQ9R6B+RUkT73Lz+xI6miriEfPcMXbeOcTwU6XygKHpcm+0Ksi80QJYA==
+  dependencies:
+    "@sentry-internal/node-cpu-profiler" "^2.0.0"
+    "@sentry/core" "9.15.0"
+    "@sentry/node" "9.15.0"
 
 "@smithy/abort-controller@^4.0.2":
   version "4.0.2"
@@ -1841,7 +1918,7 @@ destroy@1.2.0:
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.2.0.tgz#4803735509ad8be552934c67df614f94e66fa015"
   integrity sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==
 
-detect-libc@^2.0.0:
+detect-libc@^2.0.0, detect-libc@^2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.4.tgz#f04715b8ba815e53b4d8109655b6508a6865a7e8"
   integrity sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==
@@ -2727,6 +2804,13 @@ negotiator@^0.6.3, negotiator@~0.6.4:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.4.tgz#777948e2452651c570b712dd01c23e262713fff7"
   integrity sha512-myRT3DiWPHqho5PrJaIRyaMv2kgYf0mUVgBNOYMuCH5Ki1yEiQaf/ZJuQ62nvpc44wL5WDbTX7yGJi1Neevw8w==
 
+node-abi@^3.73.0:
+  version "3.75.0"
+  resolved "https://registry.yarnpkg.com/node-abi/-/node-abi-3.75.0.tgz#2f929a91a90a0d02b325c43731314802357ed764"
+  integrity sha512-OhYaY5sDsIka7H7AtijtI9jwGYLyl29eQn/W623DiN/MIv5sUqc4g7BIDThX+gb7di9f6xK02nkp8sdfFWZLTg==
+  dependencies:
+    semver "^7.3.5"
+
 node-fetch@^2.6.7:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
@@ -3061,6 +3145,11 @@ proc-log@^4.1.0, proc-log@^4.2.0:
   resolved "https://registry.yarnpkg.com/proc-log/-/proc-log-4.2.0.tgz#b6f461e4026e75fdfe228b265e9f7a00779d7034"
   integrity sha512-g8+OnU/L2v+wyiVK+D5fA34J7EH8jZ8DDlvwhRCMxmMj7UCBvxiO1mGeN+36JXIKF4zevU4kRBd8lVgG9vLelA==
 
+progress@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
+  integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
+
 promise-retry@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/promise-retry/-/promise-retry-2.0.1.tgz#ff747a13620ab57ba688f5fc67855410c370da22"
@@ -3081,6 +3170,11 @@ proxy-addr@~2.0.7:
   dependencies:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
+
+proxy-from-env@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
+  integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
 
 pstree.remy@^1.1.8:
   version "1.1.8"
@@ -3639,7 +3733,7 @@ whatwg-url@^5.0.0:
     tr46 "~0.0.3"
     webidl-conversions "^3.0.0"
 
-which@^2.0.1:
+which@^2.0.1, which@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
