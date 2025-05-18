@@ -2,7 +2,7 @@ const config = require("./config/config");
 const app = require("./app");
 const logger = require("./config/logger");
 const prismaClient = require("./utils/prismaClient");
-require("./instrument.js");
+// require("./instrument.js");
 
 let server;
 
