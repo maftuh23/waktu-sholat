@@ -9,37 +9,37 @@ API ini juga menyediakan informasi tentang provinsi dan kota di Indonesia.
 
 Mengembalikan daftar provinsi dan kota.
 
-Contoh: [`/province`](https://waktu-sholat-huso.vercel.app/province)
+Contoh: [`/province`](https://waktu-sholat.maftuhichsan.my.id/province)
 
 ### `/province/{province.id}`
 
 Mengembalikan provinsi dan daftar kota.
 
-Contoh: [`/province/623170da0c9712e86967f918`](https://waktu-sholat-huso.vercel.app/province/67fe1456a32be2ab743ff554)
+Contoh: [`/province/623170da0c9712e86967f918`](https://waktu-sholat.maftuhichsan.my.id/province/67fe1456a32be2ab743ff554)
 
 ### `/province/{province.id}/city`
 
 Mengembalikan daftar kota untuk provinsi tertentu.
 
-Contoh: [`/province/623170da0c9712e86967f918/city`](https://waktu-sholat-huso.vercel.app/province/67fe1456a32be2ab743ff554/city)
+Contoh: [`/province/623170da0c9712e86967f918/city`](https://waktu-sholat.maftuhichsan.my.id/province/67fe1456a32be2ab743ff554/city)
 
 ### `/province/{province.id}/city/{city.id}`
 
 Mengembalikan kota spesifik.
 
-Contoh: [`/province/623170da0c9712e86967f918/city/623174648c0926930463d0a6`](https://waktu-sholat-huso.vercel.app/province/67fe1456a32be2ab743ff554/city/67fe1456a32be2ab743ff58d)
+Contoh: [`/province/623170da0c9712e86967f918/city/623174648c0926930463d0a6`](https://waktu-sholat.maftuhichsan.my.id/province/67fe1456a32be2ab743ff554/city/67fe1456a32be2ab743ff58d)
 
 ### `/location?latitude={latitude}&longitude={longitude}`
 
 Mengembalikan kota spesifik.
 
-Contoh: [`/location?latitude=-8.53695&longitude=115.402972222222`](https://waktu-sholat-huso.vercel.app/location?latitude=-8.53695&longitude=115.402972222222)
+Contoh: [`/location?latitude=-8.53695&longitude=115.402972222222`](https://waktu-sholat.maftuhichsan.my.id/location?latitude=-8.53695&longitude=115.402972222222)
 
 ### `/prayer?latitude={latitude}&longitude={longitude}`
 
 Mengembalikan waktu sholat & imsak sesuai dengan kota terdekat berdasarkan koordinat, default Kota Jakarta. |
 
-Contoh: [`/prayer?latitude=-8.53695&longitude=115.402972222222`](https://waktu-sholat-huso.vercel.app/prayer?latitude=-8.53695&longitude=115.402972222222)
+Contoh: [`/prayer?latitude=-8.53695&longitude=115.402972222222`](https://waktu-sholat.maftuhichsan.my.id/prayer?latitude=-8.53695&longitude=115.402972222222)
 
 ## Sumber Data
 
