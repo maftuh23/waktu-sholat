@@ -4,14 +4,13 @@
   "main": "./src/index.js",
   "license": "MIT",
   "author": "Maftuh Ichsan",
+  "contact" : {
+    "email": "maftuhichsan123@gmail.com",
+    "x" : "https://twitter.com/maftuhichsan"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/maftuh23/waktu-sholat"
-  },
-  "contact" : {
-    "email": "maftuhichsan123@gmail.com",
-    "x" : "https://twitter.com/maftuhichsan",
-    "telegram" : "https://t.me/MaftuhIchsan"
   },
   "scripts": {
     "start": "node . && yarn sentry:sourcemaps",
