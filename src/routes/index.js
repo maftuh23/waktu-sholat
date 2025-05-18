@@ -25,9 +25,6 @@ const routers = [
   },
 ];
 
-app.get('/favicon.ico', (req, res) => res.status(204).end());
-app.use(express.static(path.join(__dirname, "public")));
-
 routers.forEach(({ path, routes }) => {
   router.use(path, routes);
 });
