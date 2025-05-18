@@ -8,6 +8,7 @@ const overview = (req, res) => {
     "homepage",
     "repository",
     "author",
+    "contact us"
   ]);
   return res.send(overviewFromPackage);
 };
