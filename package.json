@@ -14,6 +14,7 @@
   },
   "scripts": {
     "start": "node . && yarn sentry:sourcemaps",
+    "build": "npx prisma generate --schema=src/prisma/schema.prisma --binary-targets native rhel-openssl-3.0.x debian-openssl-3.0.x",
     "dev": "nodemon .",
     "postinstall": "npx prisma generate",
     "sentry:sourcemaps": "sentry-cli sourcemaps inject --org yayasan-lajnah-istiqomah --project waktu-sholat ./out && sentry-cli sourcemaps upload --org yayasan-lajnah-istiqomah --project waktu-sholat ./out"
