@@ -19,6 +19,8 @@ app.use(compression());
 app.use(cors());
 app.disable("x-powered-by");
 
+app.get("/favicon.ico", (req, res) => res.status(204).end());
+
 app.use("/", routes);
 
 app.use((req, res, next) => {
