@@ -14,6 +14,7 @@
   },
   "scripts": {
     "start": "node . && yarn sentry:sourcemaps",
+    "build": "prisma generate",
     "dev": "nodemon .",
     "postinstall": "npx prisma generate",
     "sentry:sourcemaps": "sentry-cli sourcemaps inject --org yayasan-lajnah-istiqomah --project waktu-sholat ./out && sentry-cli sourcemaps upload --org yayasan-lajnah-istiqomah --project waktu-sholat ./out"
