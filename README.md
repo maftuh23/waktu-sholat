@@ -49,6 +49,10 @@ Kemenag
 
 ![Alt](https://repobeats.axiom.co/api/embed/72b3d492295b83d82dd72fb2a61687c60dbb7c94.svg "Repobeats analytics image")
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=maftuh23/waktu-sholat&type=Date)](https://www.star-history.com/#maftuh23/waktu-sholat&Date)
+
 ## Catatan
 
 Proyek ini awalnya merupakan hasil pengembangan dari Waktu Sholat yang dibuat oleh R.M. Reza. Saya mengembangkan ulang proyek ini untuk kebutuhan pribadi/proyek internal/eksperimen belajar, dan akan menambahkan berbagai fitur serta perbaikan ke depannya.
