@@ -45,6 +45,10 @@ Contoh: [`/prayer?latitude=-8.53695&longitude=115.402972222222`](http://loscos4w
 
 Kemenag
 
+## Aktivitas Repo
+
+![Alt](https://repobeats.axiom.co/api/embed/72b3d492295b83d82dd72fb2a61687c60dbb7c94.svg "Repobeats analytics image")
+
 ## Catatan
 
 Proyek ini awalnya merupakan hasil pengembangan dari Waktu Sholat yang dibuat oleh R.M. Reza. Saya mengembangkan ulang proyek ini untuk kebutuhan pribadi/proyek internal/eksperimen belajar, dan akan menambahkan berbagai fitur serta perbaikan ke depannya.
